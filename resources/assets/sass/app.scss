@@ -1,0 +1,40 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+header {
+  width: 100%;
+  align-items: center;
+  height: 8em;
+  background-color: black;
+  color: white;
+  h1 {
+    text-align: center;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+.listRoom {
+  margin: 2rem 10% 2rem 10%;
+  border: 2px solid red;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+  color: white;
+  height: 3rem;;
+}
